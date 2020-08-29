@@ -28,8 +28,8 @@ public class TV {
 	public void setVolumen(int volumen) {
 		this.volumen = volumen;
 	}
-	public void setCanal() {
-		canal++;
+	public void setCanal(int canal) {
+		this.canal = canal;
 	}
 	
 	public Marca getMarca() {

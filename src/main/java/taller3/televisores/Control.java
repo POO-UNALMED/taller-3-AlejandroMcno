@@ -23,7 +23,10 @@ public class Control {
 		tv.volumenDown();
 	}
 	public void setCanal(int canal) {
-		tv.setCanal(canal);
+		if (tv.estado==true && canal>0 && canal<=120) {
+			tv.setCanal(canal);
+		}
+		
 	}
 	
 	public void enlazar(TV tv) {

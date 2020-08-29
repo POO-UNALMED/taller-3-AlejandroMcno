@@ -52,7 +52,7 @@ public class TV {
 		return canal;
 	}
 	
-	public int getNumTV() {
+	public static int getNumTV() {
 		return numTV;
 	}
 	

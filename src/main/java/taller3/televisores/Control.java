@@ -23,13 +23,13 @@ public class Control {
 		
 	}
 	public void volumenUp() {
-		if (tv.estado && tv.volumen<7) {
+		if (tv.estado && tv.volumen>=1 && tv.volumen<7) {
 			tv.volumenUp();
 		}
 		
 	}
 	public void vulumenDown() {
-		if (tv.estado && tv.volumen>1) {
+		if (tv.estado && tv.volumen>=1 && tv.volumen>1) {
 			tv.volumenDown();
 		}
 		

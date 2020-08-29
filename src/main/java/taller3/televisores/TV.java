@@ -26,10 +26,14 @@ public class TV {
 		this.precio = precio;
 	}
 	public void setVolumen(int volumen) {
-		this.volumen = volumen;
+		if (volumen<8) {
+			this.volumen = volumen;
+		}
 	}
 	public void setCanal(int canal) {
-		this.canal = canal;
+		if (canal<121) {
+			this.canal = canal;
+		}
 	}
 	
 	public Marca getMarca() {

@@ -4,18 +4,15 @@ public class Marca {
 	
 	String nombre;
 	
-	public void Marca(String nombre) {
-		
+	public Marca(String nombre) {
 		this.nombre=nombre;
 	}
 	
 	public String getMarca() {
-		
 		return nombre;
 	}
 	
-	public String setMarca(String nombre) {
-		
+	public void setMarca(String nombre) {
 		this.nombre=nombre;
 	}
 

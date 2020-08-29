@@ -11,31 +11,31 @@ public class Control {
 		tv.turnOff();
 	}
 	public void canalUp() {
-		if (tv.estado==true &&(tv.canal<120)) {
+		if (tv.estado &&(tv.canal<120)) {
 			tv.canalUp();
 		}
 		
 	}
 	public void canalDown() {
-		if (tv.estado==true && tv.canal>1) {
+		if (tv.estado && tv.canal>1) {
 			tv.canalDown();
 		}
 		
 	}
 	public void volumenUp() {
-		if (tv.estado==true && tv.volumen<7) {
+		if (tv.estado && tv.volumen<7) {
 			tv.volumenUp();
 		}
 		
 	}
 	public void vulumenDown() {
-		if (tv.estado==true && tv.volumen>1) {
+		if (tv.estado && tv.volumen>1) {
 			tv.volumenDown();
 		}
 		
 	}
 	public void setCanal(int canal) {
-		if (tv.estado==true && (canal>0 && canal<=120)) {
+		if (tv.estado && (canal>0 && canal<=120)) {
 			tv.setCanal(canal);
 		}
 		
